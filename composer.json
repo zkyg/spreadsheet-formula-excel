@@ -1,0 +1,20 @@
+{
+    "name": "zkyg/spreadsheet-formula-laravel",
+    "description": "Parsing and calculate simple Ms Excel formula using PHP(through PHPSpreadsheet)",
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "zkyg\\SpreadsheetFormulaLaravel\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "zkyg\\SpreadsheetFormulaLaravel\\SpreadsheetFormulaServiceProvider"
+            ]
+        }
+    }
+}
