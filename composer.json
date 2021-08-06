@@ -3,7 +3,7 @@
     "description": "Parsing and calculate simple Ms Excel formula using PHP(through PHPSpreadsheet)",
     "minimum-stability": "dev",
     "require": {
-        "phpoffice/phpspreadsheet": "dev-master"
+        "phpoffice/phpspreadsheet": "^1.18"
     },
     "autoload": {
         "psr-4": {
